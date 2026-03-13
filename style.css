@@ -387,6 +387,7 @@ nav.scrolled .hamburger {
     border-radius: 10px;
     margin: 2rem 0;
     border-left: 3px solid var(--mexico-green);
+    transition: opacity 0.3s ease;
 }
 
 .culture-feature h3 {
@@ -411,6 +412,7 @@ nav.scrolled .hamburger {
     align-items: center;
     gap: 8px;
     transition: var(--transition-smooth);
+    cursor: pointer;
 }
 .small-icons span:hover {
     background: var(--mexico-red);
@@ -575,7 +577,6 @@ nav.scrolled .hamburger {
     background-color: var(--dark-bg);
     color: white;
     transform: rotateY(180deg);
-    background-image: url('assets/chichen_itza_pyramid_1773354750249.png');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -599,6 +600,34 @@ nav.scrolled .hamburger {
     margin-bottom: 1rem;
 }
 .card-back-content p { font-size: 1.2rem; }
+
+.fact-counter {
+    display: inline-block;
+    background: rgba(255, 209, 0, 0.2);
+    color: #ffd100;
+    padding: 0.3rem 1rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.click-hint-back {
+    display: inline-block;
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    color: rgba(255,255,255,0.7);
+    cursor: pointer;
+    transition: var(--transition-smooth);
+}
+.click-hint-back:hover {
+    color: white;
+}
+.click-hint-back i {
+    margin-left: 5px;
+}
 
 /* --- Footer --- */
 footer {
